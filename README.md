@@ -13,18 +13,31 @@ The script runs 13 phases against a target domain:
 | Phase | Name | Description |
 |-||-|
 | 1 | Subdomain Enumeration | 12 passive sources + active DNS bruteforce + HTTP probing |
+
 | 2 | DNS Deep Recon | Zone transfers, SPF/DMARC, ASN lookup, reverse DNS |
+
 | 3 | Port Scanning | Naabu fast scan + Nmap service detection + Shodan API |
+
 | 4 | Tech Fingerprinting | httpx bulk detection + WhatWeb + response header analysis |
+
 | 5 | WAF Detection | wafw00f + header-based fingerprinting + origin IP discovery |
+
 | 6 | Endpoint Discovery | GAU, Wayback, Katana, Hakrawler — merged and deduplicated |
+
 | 7 | JavaScript Analysis | LinkFinder + SecretFinder + custom regex for keys/tokens |
+
 | 8 | Parameter Discovery | Arjun + ParamSpider + SSRF/IDOR/XSS param categorization |
+
 | 9 | Cloud Recon | S3, GCS, Azure Blob, Firebase — public access checks |
+
 | 10 | Vulnerability Scanning | Nuclei CVEs + CORS + exposed paths + security headers |
+
 | 11 | Secrets Hunting | TruffleHog on GitHub + exposed .git + Google Dorks |
+
 | 12 | Screenshots | Headless Chromium on all live hosts |
+
 | — | Report | Auto-generated markdown report with all findings |
+
 | 13 | Feroxbuster | Directory fuzzing on every live subdomain (runs last) |
 
 
