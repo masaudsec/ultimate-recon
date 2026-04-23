@@ -66,7 +66,7 @@ All tools are installed automatically. You do not need to manually install anyth
 
 # Installation
 
-    git clone https://github.com/masaudsec/ultimate_recon.git
+    git clone https://github.com/masaudsec/ultimate-recon.git
     cd ultimate_recon
     chmod +x ultimate_recon.sh
     sudo bash ultimate_recon.sh --install
