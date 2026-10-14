@@ -2,7 +2,7 @@
 
 A fully automated bug bounty recon script for Kali Linux. One command maps an entire target's attack surface across 13 sequential phases — subdomain enumeration, port scanning, JS analysis, cloud asset discovery, vulnerability scanning, secrets hunting, and more.
 
-Built and maintained by [raskinsec](https://github.com/raskinjm) |
+Built and maintained by [masaudsec](https://github.com/masaudsec) |
 
 
 
@@ -66,7 +66,7 @@ All tools are installed automatically. You do not need to manually install anyth
 
 # Installation
 
-    git clone https://githubraskinjm/ultimate-recon.git
+    git clone https://githubmasaudsec/ultimate-recon.git
     cd ultimate_recon
     chmod +x ultimate_recon.sh
     sudo bash ultimate_recon.sh --install
@@ -272,8 +272,8 @@ Unauthorized scanning is illegal. The author is not responsible for any misuse.
 
 # Author
 
-raskinsec
-GitHub: https://github.com/raskinjm
+masaudsec
+GitHub: https://github.com/masaudsec
 
 # License
 
